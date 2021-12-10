@@ -12,3 +12,9 @@ body {
   min-height: 10vh;
   overflow: hidden;
 }
+
+.nav .nav-brand a {
+  font-size: 2.6 rem;
+  padding: 1 rem 0;
+  text-decoration: navajowhite;
+}
