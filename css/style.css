@@ -19,6 +19,7 @@ body {
 /*----------Global Classes--------*/
 a {
   text-decoration: none;
+  color: white;
 }
 
 .flex-row {
