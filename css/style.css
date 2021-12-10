@@ -29,7 +29,7 @@ body {
 /*----------Global Classes--------*/
 a {
   text-decoration: none;
-  color: white;
+  color: var(--text-gray);
 }
 
 .flex-row {
