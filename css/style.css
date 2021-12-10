@@ -57,6 +57,15 @@ h3 {
   font-size: 1.3rem;
 }
 
+button.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-family: var(--Livvic);
+  cursor: pointer;
+}
+
 /*-----x-----Global Classes----x  ----*/
 
 /*------------------navbar----------------*/
