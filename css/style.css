@@ -65,6 +65,8 @@ ul {
   padding: 1.6rem 1rem;
   font-size: 1.1rem;
   position: relative;
+  font-family: Abel;
+  font-size: 1.1rem;
 }
 
 .nav .nav-brand a {
