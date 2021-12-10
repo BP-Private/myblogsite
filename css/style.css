@@ -69,6 +69,14 @@ ul {
   font-size: 1.1rem;
 }
 
+.nav .nav-items .nav-link:hover {
+  background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a {
+  color: var(--white);
+}
+
 .nav .nav-brand a {
   font-size: 2.6 rem;
   padding: 1 rem 0;
