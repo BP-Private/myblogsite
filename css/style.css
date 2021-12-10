@@ -5,6 +5,13 @@ body {
   overflow-x: hidden;
 }
 
+/*----------Global Classes--------*/
+a {
+  text-decoration: none;
+}
+
+/*-----x-----Global Classes----x  ----*/
+
 .nav {
   background: white;
   padding: 0 2rem;
@@ -16,5 +23,4 @@ body {
 .nav .nav-brand a {
   font-size: 2.6 rem;
   padding: 1 rem 0;
-  text-decoration: navajowhite;
 }
