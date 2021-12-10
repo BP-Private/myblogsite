@@ -92,3 +92,7 @@ ul {
 .nav .social i {
   padding: 0 0.2rem;
 }
+
+.nav .social i:hover {
+  color: #a1c4cf;
+}
