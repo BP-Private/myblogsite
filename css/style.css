@@ -44,6 +44,8 @@ ul {
 }
 /*-----x-----Global Classes----x  ----*/
 
+/*------------------navbar----------------*/
+
 .nav {
   background: white;
   padding: 0 2rem;
@@ -89,7 +91,7 @@ ul {
   padding: 1.6rem 1rem;
   font-size: 1.1rem;
   position: relative;
-  font-family: Abel;
+  font-family: var(--Abel);
   font-size: 1.1rem;
 }
 
@@ -120,6 +122,8 @@ ul {
 .nav .social i:hover {
   color: #a1c4cf;
 }
+
+/*-----x----navbar-----x  ----*/
 
 /*              Viewport less then or equal to 750px            */
 
