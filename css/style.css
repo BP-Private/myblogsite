@@ -73,7 +73,7 @@ ul {
   font-size: 2.6 rem;
   padding: 1 rem 0;
   display: block;
-  font-family: Abel;
+  font-family: var(--Lexend);
   font-size: 1.6rem;
 }
 
