@@ -25,6 +25,10 @@ a {
   overflow: hidden;
 }
 
+.nav .nav-menu {
+  justify-content: space-between;
+}
+
 .nav .nav-brand a {
   font-size: 2.6 rem;
   padding: 1 rem 0;
