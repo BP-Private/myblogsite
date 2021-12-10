@@ -14,6 +14,7 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 ul {
@@ -29,16 +30,27 @@ ul {
   overflow: hidden;
 }
 
-.nav .nav-menu {
+/* .nav .nav-menu {
   justify-content: space-between;
-}
+} */
 
 .nav .nav-items {
   display: flex;
   margin: 0;
 }
 
+.nav.nav-items.nav-link {
+  padding: 1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+
 .nav .nav-brand a {
   font-size: 2.6 rem;
   padding: 1 rem 0;
+  display: block;
+}
+
+.nav .social {
+  padding: 1.4rem;
 }
