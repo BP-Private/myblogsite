@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,90 +13,121 @@
     <!--Custom style-->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
-<!-------------- ---Navigation---------------->
+    <!-------------- ---Navigation---------------->
+    <div class="navwrapper">
+        <nav class="nav">
+            <div class="nav-menu flex-row">
+                <div class="nav-brand">
+                    <a href="#" class="text-gray">Blog</a>
+                </div>
+                <div class="toggle-collapse">
+                    <div class="toggle-icons">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
 
-<nav class="nav">
-    <div class="nav-menu flex-row">
-        <div class="nav-brand">
-            <a href="#" class="text-gray">Blog</a>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+
+
+                    <li class="nav-link">
+                        <a href="#blogs">Blogs</a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#contact">Contact</a>
+                    </li>
+
+
+
+
+                </ul>
+                <div class="social text-gray">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+
+        </nav>
+    </div>
+
+
+    <!-------x-------Navigation---------x----------->
+
+
+    <!-- ----------------------------- Main Site Section ------------------------------  -->
+
+    <main>
+
+        <!-- ------------------------ Site Title ----------------------  -->
+
+        <section class="site-title">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Hi 👋</h3>
+                <h1>Welcome to my blog!</h1>
+                <button class="btn">Explore</button>
+            </div>
+        </section>
+
+
+
+        <!-- ------------x----------- Site Title ----------x-----------  -->
+        <div class="blogcontainer" id="blogs">
+            <div class="blogitem">
+                <div><img src=".\assets\Blog-post\blog1.png" alt=""></div>
+                <div>text</div>
+            </div>
+            <div class="blogitem">
+                <div><img src=".\assets\Blog-post\blog2.png" alt=""></div>
+                <div>text</div>
+            </div>
+            <div class="blogitem">
+                <div><img src=".\assets\Blog-post\blog3.png" alt=""></div>
+                <div>text</div>
+            </div>
+
         </div>
-        <div class="toggle-collapse">
-            <div class="toggle-icons">
-                <i class="fas fa-bars"></i>
+
+
+
+
+
+        <!-- ---------------x-------------- Main Site Section -------------------x-----------  -->
+
+
+
+        <!-- ------------------------Contact section--------------------------------- -->
+
+        <div class="contact-container" id= "contact">
+            <div class="form">
+                    <input name="name" type="text" class="feedback-input" placeholder="Name" />
+                    <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                    <input name="phone" type="text" class="feedback-input" placeholder="Phone" />
+                    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                    <input type="submit" value="SUBMIT" />
+
+                
+
             </div>
         </div>
-    
-        <ul class="nav-items">
-            <li class="nav-link">
-                <a href="#">Home</a>
-            </li> 
-
-            <li class="nav-link">
-                <a href="#">Category</a>
-            </li>
-
-            <li class="nav-link">
-                <a href="#">Archive</a>
-            </li>
 
 
-            <li class="nav-link">
-                <a href="#">Pages</a>
-            </li>
 
-            <li class="nav-link">
-                <a href="#">Contact</a>
-            </li>
+        <!-- ------------x------------Contact section-------------------x-------------- -->
 
 
 
 
-        </ul>
-        <div class="social text-gray">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>   
-       
-   
-</nav>
 
+        <!--Custom JavaScript file-->
+        <script src="./js/main.js"></script>
 
-
-<!-------x-------Navigation---------x----------->
-
-
- <!-- ----------------------------- Main Site Section ------------------------------  -->
-
-<main>
-
-     <!-- ------------------------ Site Title ----------------------  -->
-
-    <section class="site-title">
-        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
-            <h3>Hi 👋</h3>
-            <h1>Welcome to my blog!</h1>
-            <button class="btn">Explore</button>
-        </div>
-    </section>
-
-
-
-    <!-- ------------x----------- Site Title ----------x-----------  -->
-
-
-   
-
-
-
-    <!-- ---------------x-------------- Main Site Section -------------------x-----------  -->
-
-
-
-
-    <!--Custom JavaScript file-->
-    <script src="./js/main.js"></script>
-    
 </body>
+
 </html>

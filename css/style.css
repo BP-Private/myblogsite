@@ -2,7 +2,6 @@
 
 html,
 body {
-  margin: 0%;
   box-sizing: border-box;
   overflow-x: hidden;
 }
@@ -77,13 +76,16 @@ button.btn {
   transition: height 1s ease-in-out;
   /* add drop shadow */
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  /* float navbar to top */
+  z-index: 99;
 }
 
 .nav .nav-menu {
   justify-content: space-between;
 }
 
+.navwrapper {
+  position: relative;
+}
 .nav .toggle-collapse {
   position: absolute;
   top: 0%;
@@ -159,9 +161,13 @@ button.btn {
 main.site-title {
   background: url("../assets/Background-image.png");
   background-size: cover;
-  height: 110vh;
+  height: 550px;
   display: flex;
   justify-content: center;
+}
+
+section.site-title {
+  height: 550px;
 }
 
 main .site-title .site-background {
@@ -204,3 +210,60 @@ main .site-title .btn:hover {
 }
 
 /*        x      Viewport less then or equal to 750px       x     */
+
+.blogcontainer {
+  height: 300px;
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.blogitem {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: #686666 1px solid;
+  border-radius: 10px;
+  width: 100%;
+  margin: 15px;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  object-fit: cover;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.form {
+  display: flex;
+  height: 550px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  margin: 0px 20%;
+}
+
+input.feedback-input {
+  line-height: 22px;
+  padding: 13px;
+  margin: 4px 0px;
+}
+
+textarea.feedback-input {
+  padding: 13px;
+  margin: 4px 0px;
+}
+
+input[type="submit"] {
+  height: 40px;
+  background-color: var(--text-light);
+  width: 30%;
+  margin: 15px 35%;
+}
