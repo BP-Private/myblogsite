@@ -305,3 +305,9 @@ input[type="submit"] {
   height: 50px;
   padding: 5px;
 }
+
+.footer p {
+  text-align: center;
+  padding-top: 100px;
+  color: #444444;
+}
