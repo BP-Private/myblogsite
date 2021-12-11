@@ -35,8 +35,6 @@ a {
 .flex-row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 ul {
@@ -108,6 +106,11 @@ button.btn {
 
 .nav .nav-items {
   display: flex;
+  flex-grow: 1;
+  max-width: 500px;
+  padding: 1.4rem 0;
+  font-family: var(--Lexend);
+  justify-content: space-between;
   margin: 0;
 }
 
@@ -131,6 +134,7 @@ button.btn {
   font-size: 2.6 rem;
   padding: 1 rem 0;
   display: block;
+  padding: 1.4rem 0;
   font-family: var(--Lexend);
   font-size: 1.6rem;
 }
@@ -179,7 +183,7 @@ main .site-title .btn {
 main .site-title .btn:hover {
   background: transparent;
   border: 1px solid var(--white);
-  color: var(--white);
+  color: var(--green);
 }
 
 /* ---------x-------Site title----------x-----*/
