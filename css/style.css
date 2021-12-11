@@ -142,6 +142,10 @@ button.btn {
   font-family: var(--Lexend);
   font-size: 1.6rem;
 }
+.nav-brand {
+  display: flex;
+  flex-direction: row;
+}
 
 .nav .social {
   padding: 1.4rem 0;
@@ -294,4 +298,9 @@ input[type="submit"] {
 .blogSectionWrapper .btn {
   width: 14%;
   margin: 15px 43%;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
 }
