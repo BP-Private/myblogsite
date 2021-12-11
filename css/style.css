@@ -30,7 +30,9 @@ a {
   text-decoration: none;
   color: var(--text-gray);
 }
-
+* {
+  font-family: var(--Lexend);
+}
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -173,7 +175,6 @@ section.site-title {
 main .site-title .site-background {
   padding-top: 10rem;
   text-align: center;
-  color: var(--green);
 }
 
 main .site-title h1,
@@ -212,13 +213,22 @@ main .site-title .btn:hover {
 /*        x      Viewport less then or equal to 750px       x     */
 
 .blogcontainer {
-  height: 300px;
-  background-color: greenyellow;
+  height: 550px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: space-around;
   justify-content: space-around;
+}
+.blogTitle {
+  font-family: var(--Lexend);
+  font-size: 2.5rem;
+  color: var(--text-gray);
+  text-align: center;
+  padding: 1rem;
+}
+.blogSectionWrapper {
+  background: var(--sky);
 }
 
 .blogitem {
@@ -263,7 +273,25 @@ textarea.feedback-input {
 
 input[type="submit"] {
   height: 40px;
-  background-color: var(--text-light);
+  background: var(--sky);
   width: 30%;
   margin: 15px 35%;
+}
+
+.footer {
+  background: var(--sky);
+  height: 300px;
+}
+
+/* add image background to site-background class  */
+.site-background {
+  background: url("../assets/Background-image.png");
+  background-size: cover;
+  height: 550px;
+  color: white;
+}
+/* center the button */
+.blogSectionWrapper .btn {
+  width: 14%;
+  margin: 15px 43%;
 }
